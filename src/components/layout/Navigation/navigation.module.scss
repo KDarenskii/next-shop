@@ -1,0 +1,14 @@
+@import "../../../assets/styles/vars.scss";
+
+.navigation {
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+    a {
+        font-size: 18px;
+        color: $black;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,19 @@
+@import "../../../assets/styles/vars.scss";
+
+.header {
+    padding: 24px 0;
+    background-color: $white;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}

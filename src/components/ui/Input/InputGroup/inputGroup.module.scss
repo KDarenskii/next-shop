@@ -1,0 +1,11 @@
+.inputGroup {
+    position: relative;
+    img:first-child {
+        position: absolute;
+        top: 9px;
+        left: 16px;
+    }
+    input {
+        padding-left: 52px;
+    }
+}

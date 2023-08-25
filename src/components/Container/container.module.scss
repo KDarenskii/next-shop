@@ -1,0 +1,8 @@
+@import "../../assets/styles/vars.scss";
+
+.container {
+    width: 100%;
+    max-width: $containerWidth;
+    padding: 0 20px;
+    margin: 0 auto;
+}

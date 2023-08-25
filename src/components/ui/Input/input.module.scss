@@ -1,0 +1,12 @@
+@import "../../../assets/styles/vars.scss";
+
+.input {
+    font-size: 16px;
+    color: $black;
+    padding: 12px 16px;
+    background-color: $grey;
+    border-radius: 62px;
+    &::placeholder {
+        color: rgba($black, 0.4);
+    }
+}
