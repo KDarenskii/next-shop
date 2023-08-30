@@ -20,9 +20,4 @@ export const navigationLinks: INavigationLink[] = [
         title: "New Arrivals",
         href: "/arrivals",
     },
-    {
-        id: 4,
-        title: "Brans",
-        href: "/brands",
-    },
 ];

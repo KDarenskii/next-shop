@@ -1,0 +1,54 @@
+@import "../../../../assets/styles/vars.scss";
+
+.body {
+    padding: 70px 64px 76px;
+    border-radius: 40px;
+    background: #f0f0f0;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 65px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: minmax(310px, 407px) 1fr;
+    grid-template-rows: minmax(190px, 290px);
+    gap: 20px;
+    a {
+        display: block;
+        height: 100%;
+        font-size: 36px;
+        font-weight: 700;
+        color: $black;
+        padding: 25px 36px;
+        border-radius: 20px;
+        background-size: cover;
+        cursor: pointer;
+        overflow: hidden;
+        transition: transform 0.2s ease;
+        &:hover {
+            transform: scale(1.02);
+        }
+        &:first-child {
+            background: url("/img/dress-styles/casual.png") no-repeat $white;
+        }
+        &:last-child {
+            background: url("/img/dress-styles/formal.png") no-repeat $white;
+        }
+    }
+    &:last-child {
+        grid-template-columns: 1fr minmax(310px, 407px);
+        margin-top: 20px;
+        a {
+            &:first-child {
+                background: url("/img/dress-styles/party.png") no-repeat $white;
+            }
+            &:last-child {
+                background: url("/img/dress-styles/gym.png") no-repeat $white;
+            }
+        }
+    }
+}

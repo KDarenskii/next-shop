@@ -1,0 +1,59 @@
+.section {
+    background-color: #f2f0f1;
+}
+
+.sectionWrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
+    padding: 100px 0 116px;
+    margin: 0 auto;
+    background: url("/img/intro-photo.jpg") right 65px top -28px no-repeat #f2f0f1;
+    background-size: 670px;
+    &::after,
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        background: url("/img/star-big.svg") center no-repeat;
+        background-size: cover;
+    }
+    &::after {
+        width: 104px;
+        height: 104px;
+        top: 86px;
+        right: 81px;
+    }
+    &::before {
+        width: 56px;
+        height: 56px;
+        top: 297px;
+        right: 634px;
+    }
+}
+
+.content {
+    width: 100%;
+    max-width: 600px;
+}
+
+.title {
+    max-width: 577px;
+    margin-bottom: 28px;
+}
+
+.subtitle {
+    max-width: 545px;
+    margin-bottom: 32px;
+}
+
+.button {
+    max-width: 210px;
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.imageContainer {
+    width: 100%;
+}

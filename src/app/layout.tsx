@@ -2,8 +2,11 @@ import type { Metadata } from "next";
 
 import { ReactNode } from "react";
 
-import "@/assets/styles/index.scss";
+import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
+import Subscribe from "@/components/layout/Subscribe";
+
+import "@/assets/styles/index.scss";
 
 import styles from "./layout.module.scss";
 
@@ -24,6 +27,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <body>
                 <Header />
                 <main>{children}</main>
+                <Subscribe className={styles.subscribe} />
+                <Footer />
             </body>
         </html>
     );

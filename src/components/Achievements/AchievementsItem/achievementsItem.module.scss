@@ -1,0 +1,18 @@
+@import "../../../assets/styles/vars.scss";
+
+.achievementItem {
+    &:not(:last-child) {
+        border-right: 1px solid rgba($black, 0.1);
+        padding-right: 32px;
+    }
+    p {
+        font-size: 40px;
+        font-weight: 700;
+        color: $black;
+    }
+    h6 {
+        font-size: 16px;
+        color: rgba($black, 0.6);
+        line-height: 1.375;
+    }
+}

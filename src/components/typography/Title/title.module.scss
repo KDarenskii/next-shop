@@ -1,0 +1,22 @@
+@import "../../../assets/styles/vars.scss";
+
+.title {
+    font-family: $secondaryFontFamily;
+    font-weight: 700;
+    line-height: 1;
+    &.small {
+        font-size: 40px;
+    }
+    &.middle {
+        font-size: 48px;
+    }
+    &.large {
+        font-size: 64px;
+    }
+    &.dark {
+        color: $black;
+    }
+    &.light {
+        color: $white;
+    }
+}

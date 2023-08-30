@@ -1,0 +1,12 @@
+@import "../../../../assets/styles/vars.scss";
+
+.section {
+    padding: 45px 0;
+    background-color: $black;
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}

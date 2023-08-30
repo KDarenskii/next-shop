@@ -2,7 +2,8 @@
     position: relative;
     img:first-child {
         position: absolute;
-        top: 9px;
+        top: 50%;
+        transform: translateY(-50%);
         left: 16px;
     }
     input {

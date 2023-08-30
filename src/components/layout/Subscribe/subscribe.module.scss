@@ -1,0 +1,31 @@
+@import "../../../assets/styles/vars.scss";
+
+.section {
+    transform: translateY(50%);
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 36px 64px;
+    border-radius: 20px;
+    background-color: $black;
+}
+
+.title {
+    width: 100%;
+    max-width: 551px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+    max-width: 350px;
+    input {
+        width: 100%;
+    }
+}

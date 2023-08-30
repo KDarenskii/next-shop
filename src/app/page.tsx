@@ -1,13 +1,19 @@
 import { NextPage } from "next";
-import Link from "next/link";
 
-import Intro from "@/components/home/Intro";
+import Arrivals from "@/components/screens/home/Arrivals";
+import Brands from "@/components/screens/home/Brands";
+import DressStyle from "@/components/screens/home/DressStyle";
+import Intro from "@/components/screens/home/Intro";
+import Selling from "@/components/screens/home/Selling";
 
 const HomePage: NextPage = () => {
     return (
         <>
-            <Link href="/about">About</Link>
             <Intro />
+            <Brands />
+            <Arrivals />
+            <Selling />
+            <DressStyle />
         </>
     );
 };

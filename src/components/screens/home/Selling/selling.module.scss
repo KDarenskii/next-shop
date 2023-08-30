@@ -1,0 +1,28 @@
+@import "../../../../assets/styles/vars.scss";
+
+.section {
+    padding: 64px 0 80px;
+}
+
+.title {
+    margin-bottom: 55px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 36px;
+}
+
+.link {
+    display: block;
+    max-width: 218px;
+    margin: 0 auto;
+    button {
+        width: 100%;
+    }
+}

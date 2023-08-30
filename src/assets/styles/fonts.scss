@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+@font-face {
+    font-family: "Integral CF";
+    src:
+        local("Integral CF Bold"),
+        local("Integral-CF-Bold"),
+        url("/fonts/IntegralCF-Bold.woff2") format("woff2"),
+        url("/fonts/IntegralCF-Bold.woff") format("woff"),
+        url("/fonts/IntegralCF-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
